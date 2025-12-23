@@ -3,11 +3,6 @@ package functions;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import functions.FunctionPoint;
-import functions.FunctionPointIndexOutOfBoundsException;
-import functions.InappropriateFunctionPointException;
-import functions.TabulatedFunction;
-
 import java.io.*;
 
 public class LinkedListTabulatedFunction implements TabulatedFunction, Serializable, Externalizable {

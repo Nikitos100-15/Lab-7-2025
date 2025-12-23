@@ -1,10 +1,5 @@
 package functions;
 
-import java.util.Iterator;
-import functions.Function;
-import functions.FunctionPoint;
-import functions.InappropriateFunctionPointException;
-
 public interface TabulatedFunction extends Function, Iterable<FunctionPoint>, Cloneable {
 
 // все объекты типа клонируемыми с точки зрения JVM

@@ -3,13 +3,6 @@ package functions;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import functions.FunctionPoint;
-import functions.FunctionPointIndexOutOfBoundsException;
-import functions.InappropriateFunctionPointException;
-import functions.TabulatedFunction;
-
-import java.io.Serializable;
-
 public class ArrayTabulatedFunction implements TabulatedFunction {
     private static final long serialVersionUID = 1L;  // версия для сериализации
     // создаем поле в виде массива

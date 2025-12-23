@@ -1,6 +1,5 @@
 package functions;
 
-import functions.Function;
 import functions.meta.*;
 public class Functions {
 
